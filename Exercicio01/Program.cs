@@ -1,5 +1,5 @@
 ﻿// 1.Crie um programa para calcular o volume de uma caixa retangular
-// mliplique o comprimento x largura x altura (ou profundidade)
+// multiplique o comprimento x largura x altura (ou profundidade)
 
 Console.Write("Digite o comprimento da caixa: ");
 decimal comprimento = Convert.ToDecimal(Console.ReadLine());
@@ -12,5 +12,5 @@ decimal altura = Convert.ToDecimal(Console.ReadLine());
 
 decimal volume = altura * comprimento * altura;
 
-Console.WriteLine("O volume da caixa retangular é: {volume} cm³ ");
+Console.WriteLine($"O volume da caixa retangular é: {volume} cm³ ");
 Console.ReadLine();
